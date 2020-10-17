@@ -17,13 +17,13 @@ PyTorch version, same setting with BERT-base，loading model with transformers.
 
 To train SentiX, simply run:
 ```
-sh run_sentix.sh
+python pretrain_multigpu_final.py --dataset data_all --max_seq_len 256 --batch_size 16 --gradient_accumulation_steps 4 
 ```
 ## Evaluation Instructions
 
 To test after setting model path:
 ```
-sh test_sentix.sh
+run_multidomain_sentiment_analysis.sh
 ```
 
 ## File Structure
