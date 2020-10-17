@@ -5,12 +5,12 @@ This is the source code of our COLING 2020 paper <SentiX: A Sentiment-Aware Pre-
 ## Requirements
 
 * Python 3.6 or higher.
-* [PyTorch](http://pytorch.org/) 1.0.0+.
+* [PyTorch](http://pytorch.org/) 1.2.0.
 * [transformers](https://github.com/huggingface/transformers) PyTorch 1.2.0.
 
 ## Pre-trained Models (PyTorch)
 The following pre-trained models are available for download from Google Drive:
-* [`SentiX`](...): 
+* [`SentiX`](https://drive.google.com/file/d/1aURbb0d5n-eFn2QxAWX64gA8X7b9xC2n/view?usp=sharing): 
 PyTorch version, same setting with BERT-base，loading model with transformers.
 
 ## Training
