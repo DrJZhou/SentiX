@@ -1,5 +1,5 @@
 base_bert_path="/home/zhoujie/bert_model/"
-bert_path="state_dict/bert_PretrainBERT_data_all_val_f1_0.4717_meanf1_0.6693_Rating_Mask/"
+bert_path="SentiX_Baes_Model/"
 #'books', 'dvd', 'electronics', 'kitchen_&_housewares'
 cuda_id="0"
 python multidomain_train.py --dataset books --device cuda:${cuda_id} --sentiment_class 2 --bert_path ${bert_path} --batch_size 8
